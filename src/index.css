@@ -7,16 +7,16 @@
 	@apply text-white;
 }
 
-body {
-	@apply p-[20px] font-[Poppins] bg-[#2b3452];
-}
-
 p {
 	@apply my-[20px] mx-[0];
 }
 
-button {
-	@apply border-0 p-[8px] rounded-[4px] bg-primary text-white cursor-pointer;
+.btn {
+	@apply border-0 p-[8px] rounded-[4px] text-white cursor-pointer;
+}
+
+.btn-primary {
+	@apply bg-primary;
 }
 
 /* navbar */
