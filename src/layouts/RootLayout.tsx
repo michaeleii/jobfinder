@@ -3,10 +3,10 @@ import { NavLink, Outlet } from "react-router-dom";
 function RootLayout() {
 	return (
 		<>
-			<header className="py-[10px] px-[20px]">
+			<header className="py-[10px] px-[20px] bg-base-200">
 				<nav className="navbar">
 					<h1 className="mr-auto border-b-4 border-b-accent">JobFinder</h1>
-					<ul className="menu menu-horizontal">
+					<ul className="menu menu-horizontal bg-base-300 rounded-box">
 						<li>
 							<NavLink to="/">Home</NavLink>
 						</li>

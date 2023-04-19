@@ -10,7 +10,7 @@ function Contact() {
 					<input
 						type="email"
 						name="email"
-						className="input input-bordered input-secondary w-full max-w-xs"
+						className="input input-bordered input-primary w-full max-w-xs"
 						required
 					/>
 				</div>
@@ -21,7 +21,7 @@ function Contact() {
 					</label>
 					<textarea
 						name="message"
-						className="text-area textarea-bordered textarea-secondary textarea-xs w-full max-w-xs"
+						className="text-area textarea-bordered textarea-primary textarea-xs w-full max-w-xs"
 						required
 					></textarea>
 				</div>

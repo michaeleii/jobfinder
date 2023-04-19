@@ -16,7 +16,7 @@ function HelpLayout() {
 				our friendly support team. We're here to help you succeed!
 			</p>
 			<nav className="navbar justify-center">
-				<ul className="menu menu-horizontal bg-base-100">
+				<ul className="menu menu-horizontal bg-base-300 rounded-box">
 					<li>
 						<NavLink to="faq">View the FAQ</NavLink>
 					</li>
