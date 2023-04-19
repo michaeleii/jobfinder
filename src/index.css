@@ -11,6 +11,14 @@ p {
 	@apply my-[20px] mx-[0];
 }
 
+h1 {
+	@apply text-[48px] font-bold;
+}
+
+h2 {
+	@apply text-[32px] font-bold;
+}
+
 .btn {
 	@apply border-0 p-[8px] rounded-[4px] text-white cursor-pointer;
 }
@@ -22,6 +30,9 @@ p {
 /* navbar */
 
 /* page content */
+main {
+	@apply mx-auto my-[40px] max-w-[1200px];
+}
 
 /* help layout */
 
