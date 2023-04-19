@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-	@apply text-white;
-}
-
 p {
 	@apply my-[20px] mx-[0];
 }
