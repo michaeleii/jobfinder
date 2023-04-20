@@ -6,7 +6,8 @@ function CareersLayout() {
 			<h2>Careers</h2>
 			<p>
 				Welcome to the JobFinder Careers page! Below is a list of all the
-				exciting job opportunities that are currently available.
+				exciting job opportunities that are currently available. Click on a job
+				to see more details.
 			</p>
 			<Outlet />
 		</div>

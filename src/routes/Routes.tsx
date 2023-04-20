@@ -7,7 +7,10 @@ import FAQ from "../pages/help/FAQ";
 import Contact from "../pages/help/Contact";
 import NotFound from "../pages/NotFound";
 import CareersLayout from "../layouts/CareersLayout";
-import Careers from "../pages/careers/Careers";
+import Careers, { careersLoader } from "../pages/careers/Careers";
+import CareerDetails, {
+	careerDetailsLoader,
+} from "../pages/careers/CareerDetails";
 
 const routes: RouteObject[] = [
 	{
@@ -27,7 +30,14 @@ const routes: RouteObject[] = [
 			{
 				path: "careers",
 				element: <CareersLayout />,
-				children: [{ path: "", element: <Careers /> }],
+				children: [
+					{ path: "", element: <Careers />, loader: careersLoader },
+					{
+						path: ":id",
+						element: <CareerDetails />,
+						loader: careerDetailsLoader,
+					},
+				],
 			},
 			{ path: "*", element: <NotFound /> },
 		],

@@ -4,43 +4,50 @@
 			"id": 1,
 			"title": "Senior React Developer",
 			"salary": 50000,
-			"location": "London, UK"
+			"location": "London, UK",
+			"details": "As a Senior React Developer, you will be responsible for leading the development of complex web applications using React, Redux and other front-end technologies. You will work closely with designers, project managers and other developers to deliver high-quality software solutions."
 		},
 		{
 			"id": 2,
 			"title": "Plumber",
 			"salary": 40000,
-			"location": "Bowser's Castle"
+			"location": "Bowser's Castle",
+			"details": "As a Plumber, you will be responsible for installing, repairing and maintaining plumbing systems in residential and commercial buildings. You will work with a variety of tools and equipment to identify and fix plumbing problems and ensure that the systems are functioning properly."
 		},
 		{
 			"id": 3,
 			"title": "Gym Leader",
 			"salary": 75000,
-			"location": "Kanto Region"
+			"location": "Kanto Region",
+			"details": "As a Gym Leader, you will be responsible for designing and leading challenging Pokemon battles for trainers who visit your gym. You will use your knowledge of Pokemon types, moves and strategies to create unique and exciting battles that test the skills of the trainers who challenge you."
 		},
 		{
 			"id": 4,
 			"title": "Vue Developer",
 			"salary": 40000,
-			"location": "Liverpool, UK"
+			"location": "Liverpool, UK",
+			"details": "As a Vue Developer, you will be responsible for building web applications using Vue.js, Vuex and other front-end technologies. You will work closely with designers and other developers to create high-quality software solutions that meet the needs of clients and users."
 		},
 		{
 			"id": 5,
 			"title": "Tutorial Maker",
 			"salary": 35000,
-			"location": "Manchester, UK"
+			"location": "Manchester, UK",
+			"details": "As a Tutorial Maker, you will be responsible for creating high-quality tutorials and instructional materials for a variety of subjects and audiences. You will use your expertise in a particular field to create engaging and informative content that helps learners understand and master new concepts."
 		},
 		{
 			"id": 6,
 			"title": "Website Manager",
 			"salary": 50000,
-			"location": "Berlin, Germany"
+			"location": "Berlin, Germany",
+			"details": "As a Website Manager, you will be responsible for overseeing the development, maintenance and content of one or more websites. You will work with designers, developers and content creators to ensure that the website(s) are up-to-date, user-friendly and meet the needs of the target audience."
 		},
 		{
 			"id": 7,
 			"title": "Food Tester",
 			"salary": 30000,
-			"location": "London, UK"
+			"location": "London, UK",
+			"details": "As a Food Tester, you will be responsible for sampling and evaluating various food products for taste, texture, aroma and appearance. You will provide feedback to food producers and manufacturers to help them improve the quality of their products and ensure that they meet industry standards and regulations."
 		}
 	]
 }
