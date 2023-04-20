@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, Link } from "react-router-dom";
 
 function HelpLayout() {
 	return (

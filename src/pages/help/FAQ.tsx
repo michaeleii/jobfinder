@@ -3,7 +3,7 @@ function FAQ() {
 		<div className="faq flex flex-col gap-10">
 			<h3>Frequently Asked Questions</h3>
 
-			<div className="card bg-base-300 hover:bg-accent hover:text-accent-content transition-colors duration-500 ease-in-out shadow-xl">
+			<div className="card bg-base-300 hover:bg-primary hover:text-primary-content transition-colors duration-500 ease-in-out shadow-xl">
 				<div className="card-body">
 					<p className="card-title">
 						<strong>What is JobFinder, and how does it work?</strong>
@@ -18,7 +18,7 @@ function FAQ() {
 				</div>
 			</div>
 
-			<div className="card bg-base-300 hover:bg-accent hover:text-accent-content transition-colors duration-500 ease-in-out shadow-xl">
+			<div className="card bg-base-300 hover:bg-primary hover:text-primary-content transition-colors duration-500 ease-in-out shadow-xl">
 				<div className="card-body">
 					<p className="card-title">
 						<strong>
@@ -32,7 +32,7 @@ function FAQ() {
 				</div>
 			</div>
 
-			<div className="card bg-base-300 hover:bg-accent hover:text-accent-content transition-colors duration-500 ease-in-out shadow-xl">
+			<div className="card bg-base-300 hover:bg-primary hover:text-primary-content transition-colors duration-500 ease-in-out shadow-xl">
 				<div className="card-body">
 					<p className="card-title">
 						<strong>
@@ -49,7 +49,7 @@ function FAQ() {
 				</div>
 			</div>
 
-			<div className="card bg-base-300 hover:bg-accent hover:text-accent-content transition-colors duration-500 ease-in-out shadow-xl">
+			<div className="card bg-base-300 hover:bg-primary hover:text-primary-content transition-colors duration-500 ease-in-out shadow-xl">
 				<div className="card-body">
 					<p className="card-title">
 						<strong>
@@ -66,7 +66,7 @@ function FAQ() {
 				</div>
 			</div>
 
-			<div className="card bg-base-300 hover:bg-accent hover:text-accent-content transition-colors duration-500 ease-in-out shadow-xl">
+			<div className="card bg-base-300 hover:bg-primary hover:text-primary-content transition-colors duration-500 ease-in-out shadow-xl">
 				<div className="card-body">
 					<p className="card-title">
 						<strong>

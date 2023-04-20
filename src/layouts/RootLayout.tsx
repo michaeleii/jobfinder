@@ -14,6 +14,9 @@ function RootLayout() {
 							<NavLink to="about">About</NavLink>
 						</li>
 						<li>
+							<NavLink to="careers">Careers</NavLink>
+						</li>
+						<li>
 							<NavLink to="help">Help</NavLink>
 						</li>
 					</ul>

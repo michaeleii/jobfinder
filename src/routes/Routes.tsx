@@ -5,6 +5,9 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import FAQ from "../pages/help/FAQ";
 import Contact from "../pages/help/Contact";
+import NotFound from "../pages/NotFound";
+import CareersLayout from "../layouts/CareersLayout";
+import Careers from "../pages/careers/Careers";
 
 const routes: RouteObject[] = [
 	{
@@ -21,6 +24,12 @@ const routes: RouteObject[] = [
 					{ path: "contact", element: <Contact /> },
 				],
 			},
+			{
+				path: "careers",
+				element: <CareersLayout />,
+				children: [{ path: "", element: <Careers /> }],
+			},
+			{ path: "*", element: <NotFound /> },
 		],
 	},
 ];

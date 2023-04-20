@@ -19,8 +19,6 @@ h3 {
 	@apply text-[24px] font-bold;
 }
 
-/* navbar */
-
 /* page content */
 main {
 	@apply mx-auto my-[40px] max-w-[1200px];
