@@ -7,7 +7,7 @@ import CareersLayout from "../layouts/CareersLayout";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import FAQ from "../pages/help/FAQ";
-import Contact from "../pages/help/Contact";
+import Contact, { contactAction } from "../pages/help/Contact";
 import NotFound from "../pages/NotFound";
 import Careers, { careersLoader } from "../pages/careers/Careers";
 import CareerDetails, {
@@ -27,7 +27,7 @@ const routes: RouteObject[] = [
 				element: <HelpLayout />,
 				children: [
 					{ path: "faq", element: <FAQ /> },
-					{ path: "contact", element: <Contact /> },
+					{ path: "contact", element: <Contact />, action: contactAction },
 				],
 			},
 			{
