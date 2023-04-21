@@ -22,9 +22,10 @@ export default Careers;
 
 //loader function
 export const careersLoader = async () => {
-	const response = await fetch("http://localhost:4000/careers");
-	if (!response.ok) {
+	try {
+		const response = await fetch("http://localhost:4000/careers");
+		return response.json();
+	} catch (error) {
 		throw new Error("Could not fetch the careers!");
 	}
-	return response.json();
 };
